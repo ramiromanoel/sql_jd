@@ -18,3 +18,7 @@ FROM (
     GROUP BY TO_CHAR(o.order_date, 'YYYY-MM')
 ) AS f
 ORDER BY f.mes_ano;
+
+
+
+select * from vw_faturamento_mensal;
